@@ -1,4 +1,4 @@
-module github.com/RestartFU/dfutils
+module github.com/RestartFU/dfutil
 
 go 1.17
 

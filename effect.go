@@ -1,4 +1,4 @@
-package dfutils
+package dfutil
 
 import (
 	"reflect"
