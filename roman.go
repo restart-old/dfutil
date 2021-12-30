@@ -40,7 +40,7 @@ var order = []int{
 // Itor converts an interger to a roman numeral
 func Itor(n int) (string, error) {
 	if n > 3999 {
-		return "", errors.New("the interger provided is too big")
+		return "", errors.New("the integer provided is too big")
 	}
 
 	var s strings.Builder
