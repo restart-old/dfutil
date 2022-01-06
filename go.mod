@@ -2,12 +2,14 @@ module github.com/RestartFU/dfutil
 
 go 1.17
 
-require github.com/df-mc/dragonfly v0.4.3-0.20211228034935-5c6150017867
+require (
+	github.com/df-mc/dragonfly v0.4.3-0.20211228034935-5c6150017867
+	github.com/go-gl/mathgl v1.0.0
+)
 
 require (
 	github.com/brentp/intintmap v0.0.0-20190211203843-30dc0ade9af9 // indirect
 	github.com/cespare/xxhash v1.1.0 // indirect
-	github.com/go-gl/mathgl v1.0.0 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/klauspost/compress v1.13.6 // indirect
